@@ -33,7 +33,7 @@ const ProductList = () => {
 
   return (
     <div className="container">
-      <div className="my-5 w-25 m-auto text-center">
+      <div className="my-5 search-container m-auto text-center">
         <label htmlFor="search-product" className="text-info mb-2">Search Products</label>
         <input type="text" id="search-product" className="form-control" placeholder="Search..." onChange={e => setSearchItem(e.target.value)} />
       </div>
